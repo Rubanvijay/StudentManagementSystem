@@ -17,9 +17,9 @@ class Student {
         this.course = course;
     }
 
-    public String getId() {
-        return id;
-    }
+//    public String getId() {
+//        return id;
+//    }
 
     public String getName() {
         return name;
@@ -52,8 +52,8 @@ class Student {
 }
 
 public class Main {
-    private static Map<String, Student> students = new HashMap<>();
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Map<String, Student> students = new HashMap<>();
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         while (true) {
