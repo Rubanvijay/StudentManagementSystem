@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 class Student {
-    private String id;
+    private final String id;
     private String name;
     private int age;
     private String course;
